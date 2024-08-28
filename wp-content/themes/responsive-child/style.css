@@ -1,0 +1,100 @@
+﻿/*
+
+Theme Name:    responsive-child
+
+Theme URI:     http://rvys.net
+
+Description:   Child theme for the Responsive Theme
+
+Author:        Brent J. Cohn
+
+Author URI:    http://cohnhead.com
+
+Template:      responsive
+
+Version:       0.1.0
+
+*/
+
+@import url('../responsive/style.css');
+
+
+/*
+  Main Menu Drop Down Color
+--------------------------------------- */
+.menu li li a {
+	color: #0033cc; /* blue */
+  	font-weight: bold;
+
+}
+
+
+  /*
+    Main Menu Hover Color
+--------------------------------------- */
+.menu li li a:hover {
+
+	color: #ff0000; /* red */
+	font-weight: bold;
+}
+
+
+/*
+    Links - Hover Color and Style shown on Page
+
+--------------------------------------- */
+
+a {
+
+	color: #660033;	/* brown  */
+
+	font-weight: bold;
+
+}
+
+
+
+/*
+  Links Color and Style when using Mouse
+
+--------------------------------------- */
+
+a:hover,
+
+a:focus,
+
+a:active {
+
+	color: #ff0000; /* red */
+
+	text-decoration: underline;
+
+	font-weight: bold;
+
+}
+
+#wrapper {
+margin: 0 auto;
+}
+
+
+/*
+     FILE ARCHIVED ON 11:00:37 Jan 20, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:50:37 Aug 28, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.716
+  exclusion.robots: 0.046
+  exclusion.robots.policy: 0.035
+  esindex: 0.01
+  cdx.remote: 7.284
+  LoadShardBlock: 114.525 (3)
+  PetaboxLoader3.datanode: 118.39 (4)
+  PetaboxLoader3.resolve: 94.681 (2)
+  load_resource: 125.583
+*/
